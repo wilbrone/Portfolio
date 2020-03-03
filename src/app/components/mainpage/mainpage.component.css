@@ -1,0 +1,94 @@
+.bdy{
+    border: solid;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    background-image: url(../../../assets/images/safar-safarov-MSN8TFhJ0is-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+.intro5{
+    border: solid red;
+    position: absolute;
+    width: 45%;
+    height: 40%;
+    top: 20%;
+    left: 3%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 5px;
+    text-align: center;
+    /* grid-row-gap: 50px; */
+    /* display: flex;
+    justify-content: space-around; */
+}
+.intro5 > p{
+    background-color: black;
+    color: white;
+    /* position: absolute; */
+    /* width: 12%; */
+    text-align: center;
+    /* top: 20%; */
+    /* left: 32%; */
+    font-family: 'Anton';
+    font-size: 2.5em;
+    font-stretch: expanded;
+    letter-spacing: 3px;
+}
+
+
+/* #intro{
+    background-color: black;
+    color: white;
+    position: absolute;
+    width: 4%;
+    text-align: center;
+    top: 20%;
+    left: 10%;
+    font-family: 'Anton';
+    font-size: 2.5em;
+    font-stretch: expanded;
+    letter-spacing: 3px;
+}
+#intro2{
+    background-color: black;
+    color: white;
+    position: absolute;
+    width: 16%;
+    text-align: center;
+    top: 20%;
+    left: 15%;
+    font-family: 'Anton';
+    font-size: 2.5em;
+    font-stretch: expanded;
+    letter-spacing: 3px;
+}
+#intro3{
+    background-color: black;
+    color: white;
+    position: absolute;
+    width: 12%;
+    text-align: center;
+    top: 20%;
+    left: 32%;
+    font-family: 'Anton';
+    font-size: 2.5em;
+    font-stretch: expanded;
+    letter-spacing: 3px;
+}
+#intro4{
+    background-color: black;
+    color: white;
+    position: absolute;
+    width: 8%;
+    text-align: center;
+    top: 20%;
+    left: 45%;
+    font-family: 'Anton';
+    font-size: 2.5em;
+    font-stretch: expanded;
+    letter-spacing: 3px;    
+} */

@@ -43,6 +43,23 @@
     background-color: black;
     top: 100%;
 }
+.quots{
+    position: relative;
+    color: whitesmoke;
+    top: 16%;
+    left: 0%;
+    font-size: 3.2rem;
+    font-family: 'Playfair Display', serif;
+}
+.quots > em{
+    /* text-decoration: underline; */
+    /* text-decoration-color: wheat; */
+    /* color: white; */
+    background-color: wheat;
+    color: black;
+    font-size: 4.3rem;
+    font-family: 'Oleo Script', cursive;
+}
 
 
 /* #intro{

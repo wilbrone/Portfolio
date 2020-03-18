@@ -63,26 +63,70 @@
     padding-top: 8em;
     padding-bottom: 5em;
     color: white;
-    /* justify-content: space-around; */
+    /* justify-content: space-between; */
 }
 .sect3{
-    border: solid;
     height: 100%;
-    background-color: transparent;
-    /* opacity: 0.3; */
-    /* filter: alpha(opacity=30); */
+    /* background-color: transparent; */
 }
 .works{
     font-family: 'Anton', sans-serif;
-    letter-spacing: 5px;
+    letter-spacing: 0.6em;
     color: black;
     font-stretch: wider;
-    font-size: 1em;
+    font-size: 4em; 
     transform: rotate(90deg);
-    
+    width: 46%;
+    position: absolute;
+    left: -19.5%;
+    top: 248%;
+    text-align: center;
+    background-color: skyblue;
+}
+.projs{
+    position: relative;
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 4rem;
+    justify-content: space-evenly;
+    height: 90%;
+}
+.example-card {
+    max-width: 30%;
 }
 
-
+.example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+}
+.technology{
+    height: 100%;
+    border: solid;
+    background-color: black;
+}
+.example-section {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 60px;
+}
+.example-margin {
+    margin: 0 10px;
+    width: 60%;
+}
+.footer{
+    border: solid;
+    height: 80%;
+}
+.cards{
+    border: solid;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+.fnote{
+    /* width: 100%; */
+}
 
 
 

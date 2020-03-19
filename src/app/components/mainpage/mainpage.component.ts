@@ -16,12 +16,18 @@ export class MainpageComponent implements OnInit {
 
   color: ThemePalette = 'primary';
   // mode: ProgressBarMode = 'determinate';
-  value = 50;
-  matTooltip = '50%';
-  value1 = 70;
-  matTooltip1 = '70%';
-  bufferValue = 100;
+  // value: number;
+  matTooltip = '85%';
+  value = 85;
 
+  value1 = 80;
+  matTooltip1 = '80%';
+
+  value2 = 80;
+  matTooltip2 = '80%';
+
+  bufferValue = 100;
+  
   formatLabel(value: number) {
     return value + '%';
   }

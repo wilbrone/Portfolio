@@ -104,35 +104,98 @@
     </div>
 </section>
 <section class="technology">
-    <img src="">
-    <div class="example-section">
-        <mat-progress-bar
-            class="example-margin"
-            style="height:20%;"
-            [matTooltip]="matTooltip"
-            [color]="color"
-            [mode]="mode"
-            [value]="value"
-            [bufferValue]="bufferValue">
-        </mat-progress-bar>
+    <div class="tech" style="width:70%;margin:0 auto;margin-top:4rem;">
+        <p>JavaScript</p>
+        <div class="example-section">
+            <mat-progress-bar
+                class="example-margin"
+                style="height:20%;"
+                [matTooltip]="matTooltip"
+                [color]="color"
+                [mode]="mode"
+                [value]="value"
+                [bufferValue]="bufferValue">
+            </mat-progress-bar>
+        </div>
     </div>
-    <div class="example-section">
-        <mat-progress-bar
-            class="example-margin"
-            style="height:20%;"
-            [matTooltip]="matTooltip1"
-            [color]="color"
-            [mode]="mode"
-            [value]="value1"
-            [bufferValue]="bufferValue">
-        </mat-progress-bar>
+
+    <div class="tech" style="width:70%;margin:0 auto;margin-top:4rem;">
+        <p style="color:orange;">Python</p>
+        <div class="example-section">
+            <mat-progress-bar
+                class="example-margin"
+                style="height:20%;"
+                [matTooltip]="matTooltip1"
+                [color]="color"
+                [mode]="mode"
+                [value]="value1"
+                [bufferValue]="bufferValue">
+            </mat-progress-bar>
+        </div>
     </div>
+
+    <div class="tech" style="width:70%;margin:0 auto;margin-top:4rem;">
+        <p style="color:red;">Angular</p>
+        <div class="example-section">
+            <mat-progress-bar
+                class="example-margin"
+                style="height:20%;"
+                [matTooltip]="matTooltip2"
+                [color]="color"
+                [mode]="mode"
+                [value]="value2"
+                [bufferValue]="bufferValue">
+            </mat-progress-bar>
+        </div>
+    </div>
+    
 </section>
 <section class="footer">
     <div class="">
     </div>
-    <mat-card class="cards">
-        
+    <mat-card class="row cards">
+        <div class="col-md-5 col-sm-12" style="margin-top:4rem;margin-bottom:3rem;">
+            <div style="margin-top:4rem;">
+                <i class="material-icons">email</i>&nbsp;&nbsp;&nbsp;: 
+                <a href="">wilbroneokoth@gmail.com</a><br><br>
+                <i class="material-icons">phone</i>&nbsp;&nbsp;&nbsp;:
+                +254 727516308<br><br>
+                <img src="https://img.icons8.com/material/32/000000/twitter-squared.png">
+                &nbsp;: <a href="https://twitter.com/wilbrone_baron" target=_blank>@wilbrone_baron</a>
+            </div>
+        </div>  
+        <div class="col-md-5 col-sm-12" style="margin-top:4rem;margin-bottom:3rem;">
+            <mat-toolbar color="primary" style="width:100%; background-color: orange;">
+                <p style="text-align:center;margin:0 auto;">
+                    Let's Chat
+                </p>
+            </mat-toolbar>
+            <form class="example-form" method="post" action="">
+                <div class="row" style="">
+                    <mat-form-field class="example-width"  style="width:45%; margin-left:3%;">
+                        <mat-label>Name</mat-label>
+                        <input type="text" matInput placeholder="Your name">
+                    </mat-form-field>
+
+                    <mat-form-field class="example-width" style="width:43%; margin-left:5%;">
+                        <mat-label>Email</mat-label>
+                        <input type="text" matInput placeholder="Your email address ">
+                    </mat-form-field>
+                </div>
+
+                <mat-form-field class="example-full-width">
+                    <mat-label>Leave a comment</mat-label>
+                    <textarea matInput placeholder="Your coment here..."></textarea>
+                </mat-form-field>
+
+                <button mat-raised-button color="" type="submit" style="background-color: orange;">SEND</button>
+            </form>
+        </div>
+
     </mat-card>
-    <mat-card class="fnote">Simple card</mat-card>
+    <mat-card class="fnote">
+        <p>
+            Copyrihgt &copy; 2020 Wilbrone. All Rights Reserved.
+        </p>
+    </mat-card>
 </section>

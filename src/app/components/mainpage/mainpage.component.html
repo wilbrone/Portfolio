@@ -1,4 +1,12 @@
-<section class="bdy">
+<nav class="navbar" id="home">
+    <a href="#home">Home</a>
+    <a href="#about">AboutMe</a>
+    <a href="#projects">Projects</a>
+    <a href="#technology">Technologies</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="bdy" id="home">
     <div class="row intro5">
         <p style="height: 20%;">
             Hi,
@@ -18,7 +26,7 @@
     </div>
 </section>
 
-<section class="sect2">
+<section class="sect2" id="about">
     <div class="container quots">
         “The future belongs to those who<br> learn more skills and combine<br> them in <em>creative</em> ways”
     </div>
@@ -38,7 +46,7 @@
     </div>
 
 </section>
-<section class="sect3">
+<section class="sect3" id="projects">
     <div class="works">
         WORKS
     </div>
@@ -103,7 +111,7 @@
         </div>
     </div>
 </section>
-<section class="technology">
+<section class="technology" id="technology">
     <div class="tech" style="width:70%;margin:0 auto;margin-top:4rem;">
         <p>JavaScript</p>
         <div class="example-section">
@@ -147,18 +155,18 @@
     </div>
     
 </section>
-<section class="footer">
+<section class="footer" id="contact">
     <div class="">
     </div>
     <mat-card class="row cards">
         <div class="col-md-5 col-sm-12" style="margin-top:4rem;margin-bottom:3rem;">
             <div style="margin-top:4rem;">
-                <i class="material-icons">email</i>&nbsp;&nbsp;&nbsp;: 
+                <i class="material-icons">email</i>&nbsp;&nbsp;&nbsp;
                 <a href="">wilbroneokoth@gmail.com</a><br><br>
-                <i class="material-icons">phone</i>&nbsp;&nbsp;&nbsp;:
+                <i class="material-icons">phone</i>&nbsp;&nbsp;&nbsp;
                 +254 727516308<br><br>
                 <img src="https://img.icons8.com/material/32/000000/twitter-squared.png">
-                &nbsp;: <a href="https://twitter.com/wilbrone_baron" target=_blank>@wilbrone_baron</a>
+                &nbsp; <a href="https://twitter.com/wilbrone_baron" target=_blank>@wilbrone_baron</a>
             </div>
         </div>  
         <div class="col-md-5 col-sm-12" style="margin-top:4rem;margin-bottom:3rem;">
@@ -196,3 +204,10 @@
         </p>
     </mat-card>
 </section>
+<a href="#home">
+    <button mat-fab class="button">
+        <span class="material-icons" style="color:black;margin:0 auto;">
+            arrow_upward
+        </span>
+    </button>
+</a>

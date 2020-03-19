@@ -1,7 +1,34 @@
+/* .navbar{
+    background-color: #e3f2fd;
+    height:10%;
+} */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    display: block;
+    position: ; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */ 
+}
+  
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: flex;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
 .bdy{
     width: 100%;
     height: 100%;
-
     background-image: url(../../../assets/images/safar-safarov-MSN8TFhJ0is-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -79,7 +106,7 @@
     width: 46%;
     position: absolute;
     left: -19.5%;
-    top: 248%;
+    top: 259%;
     text-align: center;
     background-color: skyblue;
 }
@@ -157,6 +184,12 @@
     margin-top: 1rem;
     color: black;
     letter-spacing: 0.3em;
+}
+.button{
+    background-color: whitesmoke;
+    position: absolute;
+    bottom: -395%;
+    right: 1%;
 }
 
 

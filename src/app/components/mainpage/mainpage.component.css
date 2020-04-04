@@ -2,15 +2,20 @@
     background-color: #e3f2fd;
     height:10%;
 } */
+
 .navbar {
     overflow: hidden;
     background-color: #333;
     display: block;
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */ 
+    top: 0;
+    /* Position the navbar at the top of the page */
+    width: 100%;
+    /* Full width */
 }
-  
+
+
 /* Links inside the navbar */
+
 .navbar a {
     float: left;
     display: flex;
@@ -20,12 +25,15 @@
     text-decoration: none;
 }
 
+
 /* Change background on mouse-over */
+
 .navbar a:hover {
     background: #ddd;
     color: black;
 }
-.bdy{
+
+.bdy {
     width: 100%;
     height: 100%;
     background-image: url(../../../assets/images/safar-safarov-MSN8TFhJ0is-unsplash.jpg);
@@ -34,7 +42,8 @@
     background-position: center;
     background-attachment: fixed;
 }
-.intro5{
+
+.intro5 {
     position: absolute;
     width: 45%;
     height: 40%;
@@ -45,7 +54,8 @@
     grid-column-gap: 5px;
     text-align: center;
 }
-.intro5 > p{
+
+.intro5>p {
     background-color: black;
     color: white;
     text-align: center;
@@ -54,7 +64,8 @@
     font-stretch: expanded;
     letter-spacing: 3px;
 }
-.stack{
+
+.stack {
     position: absolute;
     text-align: center;
     top: 39%;
@@ -64,23 +75,27 @@
     font-family: 'Courgette', cursive;
     border: solid orange;
 }
-.sect2{
+
+.sect2 {
     background-color: black;
 }
-.quots{
+
+.quots {
     position: relative;
     color: whitesmoke;
     padding-top: 3rem;
     font-size: 3.2rem;
     font-family: 'Playfair Display', serif;
 }
-.quots > em{
+
+.quots>em {
     background-color: wheat;
     color: black;
     font-size: 4.3rem;
     font-family: 'Oleo Script', cursive;
 }
-.about{
+
+.about {
     border: solid black;
     width: 100%;
     margin: 0 auto;
@@ -91,25 +106,35 @@
     color: white;
     /* justify-content: space-between; */
 }
-.sect3{
+
+.about-me {
+    color: white;
+    font-family: 'Great Vibes', cursive;
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+.sect3 {
     height: 100%;
     /* background-color: transparent; */
 }
-.works{
+
+.works {
     font-family: 'Anton', sans-serif;
-    letter-spacing: 0.6em;
+    letter-spacing: 0.7em;
     color: black;
     font-stretch: wider;
-    font-size: 4em; 
-    transform: rotate(90deg);
+    font-size: 4em;
+    transform: rotate(-90deg);
     width: 46%;
     position: absolute;
     left: -19.5%;
-    top: 259%;
+    top: 267%;
     text-align: center;
     background-color: skyblue;
 }
-.projs{
+
+.projs {
     position: relative;
     width: 95%;
     margin: 0 auto;
@@ -117,6 +142,7 @@
     justify-content: space-evenly;
     height: 90%;
 }
+
 .example-card {
     max-width: 30%;
 }
@@ -125,11 +151,12 @@
     background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
     background-size: cover;
 }
-.technology{
+
+.technology {
     height: 100%;
-    border: solid;
     background-color: black;
 }
+
 .example-section {
     display: flex;
     align-content: center;
@@ -138,7 +165,8 @@
     width: 100%;
     margin-left: 0.5rem;
 }
-.tech >p{
+
+.tech>p {
     font-family: 'Anton', sans-serif;
     color: beige;
     font-size: 2em;
@@ -146,31 +174,36 @@
     width: 40%;
     margin-left: 1rem;
 }
+
 .example-margin {
     margin: 0 10px;
     width: 50%;
 }
-.footer{
+
+.footer {
     height: 80%;
     margin-top: 3rem;
 }
-.cards{
+
+.cards {
     width: 90%;
     margin: 0 auto;
     justify-content: space-evenly;
     display: flex;
 }
+
 .example-form {
     min-width: 150px;
     max-width: 500px;
     width: 100%;
     margin-top: 2rem;
 }
+
 .example-full-width {
     width: 100%;
 }
 
-.fnote{
+.fnote {
     position: absolute;
     width: 100%;
     bottom: -410%;
@@ -178,26 +211,20 @@
     text-align: center;
     background-color: skyblue;
 }
-.fnote > p{
+
+.fnote>p {
     font-size: 0.8em;
     margin-top: 1rem;
     color: black;
     letter-spacing: 0.3em;
 }
-.button{
+
+.button {
     background-color: whitesmoke;
     position: absolute;
     bottom: -395%;
     right: 1%;
 }
-
-
-
-
-
-
-
-
 
 
 /* .example-card {

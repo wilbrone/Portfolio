@@ -32,9 +32,12 @@
     </div>
 
     <div class="row about">
+        <div class="col-md-12">
+            <h3 class="about-me"><u>About Me</u></h3>
+        </div>
         <div class="col-md-4" style="margin-right:2em;">
             Hello there I am Wilbrone, a Graphic Communication specialist. I work in helping communication be made through the different
-            graphical presentations. I also work as a Software Devoloper (Front-End). Core goals being functionality and interractivity.
+            graphical presentations. I also work as a Software Devoloper (FullStack). Core goals being functionality and interractivity.
             I recieved my BSc. in Graphic Communication and Advertisement from Moi University, where I studied Graphic Desgn, Animation and Communication.
         </div>
         <div style="min-height: 60%; border: solid 0.1em orange;">
@@ -48,7 +51,7 @@
 </section>
 <section class="sect3" id="projects">
     <div class="works">
-        WORKS
+        PROJECTS
     </div>
     <div style="height:90%;width: 80%; margin: 0 auto; margin-top: 2rem;background-color:skyblue;">
         <div class="projs row">
@@ -75,7 +78,7 @@
                 <mat-card-header>
                     <mat-card-title>Hood Crawler</mat-card-title>
                 </mat-card-header>
-                <img mat-card-image src="https://images.unsplash.com/photo-1475698066764-3dc9200f1c93?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Photo of a Shiba Inu">
+                <img mat-card-image style="height:47%;" src="https://images.unsplash.com/photo-1475698066764-3dc9200f1c93?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Photo of a Shiba Inu">
                 <mat-card-content>
                     <p>
                         This app is to help our user to find good and better as they can see 
@@ -115,6 +118,8 @@
     </div>
 </section>
 <section class="technology" id="technology">
+    <div style="height:0.5%;">
+    </div>
     <div class="tech" style="width:70%;margin:0 auto;margin-top:4rem;">
         <p>JavaScript</p>
         <div class="example-section">
@@ -156,7 +161,22 @@
             </mat-progress-bar>
         </div>
     </div>
-    
+
+    <div class="tech" style="width:70%;margin:0 auto;margin-top:4rem;">
+        <p style="color:green;">Django</p>
+        <div class="example-section">
+            <mat-progress-bar
+                class="example-margin"
+                style="height:20%;"
+                [matTooltip]="matTooltip3"
+                [color]="color"
+                [value]="value3"
+                [bufferValue]="bufferValue">
+            </mat-progress-bar>
+        </div>
+    </div>
+    <div style="height:1%;">
+    </div>
 </section>
 <section class="footer" id="contact">
     <div class="">

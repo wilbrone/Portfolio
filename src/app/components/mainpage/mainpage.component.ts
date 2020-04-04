@@ -23,11 +23,14 @@ export class MainpageComponent implements OnInit {
   value1 = 80;
   matTooltip1 = '80%';
 
-  value2 = 80;
-  matTooltip2 = '80%';
+  value2 = 90;
+  matTooltip2 = '90%';
+
+  value3 = 80;
+  matTooltip3 = '80%';
 
   bufferValue = 100;
-  
+
   formatLabel(value: number) {
     return value + '%';
   }

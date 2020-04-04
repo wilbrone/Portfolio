@@ -206,7 +206,7 @@
 .fnote {
     position: absolute;
     width: 100%;
-    bottom: -410%;
+    bottom: -417%;
     height: 12%;
     text-align: center;
     background-color: skyblue;
@@ -225,67 +225,3 @@
     bottom: -395%;
     right: 1%;
 }
-
-
-/* .example-card {
-    max-width: 400px;
-}
-
-.example-header-image {
-    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
-    background-size: cover;
-} */
-
-
-/* #intro{
-    background-color: black;
-    color: white;
-    position: absolute;
-    width: 4%;
-    text-align: center;
-    top: 20%;
-    left: 10%;
-    font-family: 'Anton';
-    font-size: 2.5em;
-    font-stretch: expanded;
-    letter-spacing: 3px;
-}
-#intro2{
-    background-color: black;
-    color: white;
-    position: absolute;
-    width: 16%;
-    text-align: center;
-    top: 20%;
-    left: 15%;
-    font-family: 'Anton';
-    font-size: 2.5em;
-    font-stretch: expanded;
-    letter-spacing: 3px;
-}
-#intro3{
-    background-color: black;
-    color: white;
-    position: absolute;
-    width: 12%;
-    text-align: center;
-    top: 20%;
-    left: 32%;
-    font-family: 'Anton';
-    font-size: 2.5em;
-    font-stretch: expanded;
-    letter-spacing: 3px;
-}
-#intro4{
-    background-color: black;
-    color: white;
-    position: absolute;
-    width: 8%;
-    text-align: center;
-    top: 20%;
-    left: 45%;
-    font-family: 'Anton';
-    font-size: 2.5em;
-    font-stretch: expanded;
-    letter-spacing: 3px;    
-} */

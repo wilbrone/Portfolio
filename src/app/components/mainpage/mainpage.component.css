@@ -1,3 +1,51 @@
+.hm {
+    border: solid;
+    height: 100%;
+    background-image: url(../../../assets/images/safar-safarov-MSN8TFhJ0is-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.name {
+    border: solid blue;
+    width: 46%;
+    margin-left: 2rem;
+    margin-top: 10rem;
+    justify-content: space-between;
+}
+
+.name p {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Anton';
+    font-size: 2.7em;
+    font-stretch: expanded;
+    letter-spacing: 3px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .hm {
+        width: 100%;
+    }
+    .name {
+        width: 80%;
+        margin-left: 1rem;
+    }
+    .name p {
+        font-size: 2em;
+        letter-spacing: 5.4px;
+    }
+}
+
+
+/* ******************************** old new border********************************************************** */
+
+
 /* .navbar{
     background-color: #e3f2fd;
     height:10%;
@@ -224,4 +272,16 @@
     position: absolute;
     bottom: -395%;
     right: 1%;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        overflow: hidden;
+        background-color: #333;
+        display: block;
+        top: 0;
+        /* Position the navbar at the top of the page */
+        width: 100%;
+        /* Full width */
+    }
 }

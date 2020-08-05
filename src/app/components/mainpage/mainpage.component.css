@@ -91,6 +91,7 @@
     color: whitesmoke;
     padding: 0;
     line-height: 1.7rem;
+    margin-left: 1rem;
 }
 
 #desc2 {
@@ -118,9 +119,33 @@
         margin-left: 1rem;
         margin-top: 1rem;
         width: fit-content;
+        padding: 0;
     }
     #about_h {
         font-size: 1.5em;
+        padding: 0;
+    }
+    #holder {
+        margin: 0;
+    }
+    #desc1,
+    #desc2 {
+        font-size: 0.7rem;
+        width: 100%;
+        margin: 0;
+        margin-right: 0.5rem;
+        line-height: 1.5rem;
+        letter-spacing: 0.05em;
+    }
+    #desc1 {
+        border: solid orange;
+        border-bottom: 0;
+    }
+    #desc2 {
+        padding-left: 0.4rem !important;
+    }
+    .spacer {
+        border: 0;
     }
 }
 

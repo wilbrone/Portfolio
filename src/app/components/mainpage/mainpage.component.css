@@ -107,6 +107,9 @@
 }
 
 @media screen and (max-width: 768px) {
+    .abt {
+        height: fit-content;
+    }
     #quots {
         font-size: 2.0rem;
         padding: 1rem;
@@ -139,14 +142,49 @@
     #desc1 {
         border: solid orange;
         border-bottom: 0;
+        padding: 0.5rem 0.5rem 0;
     }
     #desc2 {
-        padding-left: 0.4rem !important;
+        /* padding-left: 0.4rem !important; */
+        border-bottom: 0;
+        padding: 0 0.6rem 0.5rem !important;
     }
     .spacer {
         border: 0;
     }
 }
+
+.work {
+    border: solid black;
+    height: 100%;
+}
+
+#prjt-label {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 0.7em;
+    color: black;
+    background-color: skyblue;
+    width: fit-content;
+    font-size: 4em;
+    text-align: center;
+    border: solid;
+    /* letter-spacing: 0.7em;
+    color: black;
+    font-stretch: wider;
+    font-size: 4em;
+    text-align: center;
+    transform: rotate(-90deg);
+    background-color: skyblue;
+    height: fit-content;
+    width: fit-content; */
+}
+
+
+/* @media screen and (max-width: 768px) {
+    #prjt-label {
+        transform: rotate(0deg);
+    }
+} */
 
 
 /* ******************************** old new border********************************************************** */
@@ -187,50 +225,13 @@
     color: black;
 }
 
-.sect2 {
-    background-color: black;
-}
-
-.quots {
-    position: relative;
-    color: whitesmoke;
-    padding-top: 3rem;
-    font-size: 3.2rem;
-    font-family: 'Playfair Display', serif;
-}
-
-.quots>em {
-    background-color: wheat;
-    color: black;
-    font-size: 4.3rem;
-    font-family: 'Oleo Script', cursive;
-}
-
-.about {
-    border: solid black;
-    width: 100%;
-    margin: 0 auto;
-    position: relative;
-    padding-left: 7em;
-    padding-top: 8em;
-    padding-bottom: 5em;
-    color: white;
-    /* justify-content: space-between; */
-}
-
-.about-me {
-    color: white;
-    font-family: 'Great Vibes', cursive;
-    font-size: 2em;
-    font-weight: lighter;
-}
-
 .sect3 {
     height: 100%;
     /* background-color: transparent; */
 }
 
-.works {
+
+/* .works {
     font-family: 'Anton', sans-serif;
     letter-spacing: 0.7em;
     color: black;
@@ -243,7 +244,7 @@
     top: 267%;
     text-align: center;
     background-color: skyblue;
-}
+} */
 
 .projs {
     position: relative;

@@ -175,11 +175,34 @@
     padding-left: 1.5rem;
 }
 
+.probg {
+    height: 90%;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    background-color: skyblue;
+}
+
+.projs {
+    justify-content: space-between;
+}
+
 @media screen and (max-width: 768px) {
     #prjt-label {
         font-size: 3em;
         margin: auto -16rem;
         letter-spacing: 1em;
+    }
+    .probg {
+        background: transparent;
+    }
+    .projs {
+        border: solid;
+        overflow-y: scroll;
+        overflow-wrap: unset;
+    }
+    .projs>mat-card {
+        height: 100%;
     }
 }
 

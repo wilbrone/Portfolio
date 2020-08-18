@@ -157,6 +157,7 @@
 .work {
     border: solid black;
     height: 100%;
+    display: flex;
 }
 
 #prjt-label {
@@ -167,24 +168,20 @@
     width: fit-content;
     font-size: 4em;
     text-align: center;
-    border: solid;
-    /* letter-spacing: 0.7em;
-    color: black;
     font-stretch: wider;
-    font-size: 4em;
-    text-align: center;
     transform: rotate(-90deg);
-    background-color: skyblue;
     height: fit-content;
-    width: fit-content; */
+    margin: auto -16rem;
+    padding-left: 1.5rem;
 }
 
-
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     #prjt-label {
-        transform: rotate(0deg);
+        font-size: 3em;
+        margin: auto -16rem;
+        letter-spacing: 1em;
     }
-} */
+}
 
 
 /* ******************************** old new border********************************************************** */

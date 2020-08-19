@@ -145,7 +145,7 @@
         padding: 0.5rem 0.5rem 0;
     }
     #desc2 {
-        /* padding-left: 0.4rem !important; */
+        padding-left: 0.4rem !important;
         border-bottom: 0;
         padding: 0 0.6rem 0.5rem !important;
     }
@@ -155,7 +155,6 @@
 }
 
 .work {
-    border: solid black;
     height: 100%;
     display: flex;
 }
@@ -195,14 +194,18 @@
     }
     .probg {
         background: transparent;
+        margin-top: 2rem;
+        padding-top: 0.8rem;
+        padding-bottom: 0.6rem;
     }
     .projs {
-        border: solid;
         overflow-y: scroll;
-        overflow-wrap: unset;
+        padding: 0 !important;
+        height: 100% !important;
     }
     .projs>mat-card {
         height: 100%;
+        margin-bottom: 0.3rem;
     }
 }
 

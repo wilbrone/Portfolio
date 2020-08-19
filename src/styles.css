@@ -20,5 +20,6 @@ body {
     body {
         /* background-position: center; */
         background-size: 140%;
+        max-width: 100% !important;
     }
 }

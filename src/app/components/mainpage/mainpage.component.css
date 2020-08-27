@@ -223,7 +223,7 @@
 }
 
 .tech_head p {
-    padding-top: 3rem;
+    padding-top: 1.5rem;
     padding-left: 2rem;
     font-family: 'Playfair Display', serif;
     letter-spacing: 0.2em;
@@ -238,12 +238,22 @@
 #table_dt {
     padding-left: 2rem;
     margin-top: 5rem;
-    padding-bottom: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+#title_card {
+    background-color: black !important;
+    margin-bottom: -0.4rem !important;
+    border: solid !important;
+    padding-left: 2rem !important;
 }
 
 #table_dt mat-card {
+    color: white;
     background-color: #333;
     width: 75%;
+    height: 3.5rem;
+    margin-bottom: 1rem;
 }
 
 

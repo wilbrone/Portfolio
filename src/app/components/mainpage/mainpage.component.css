@@ -256,6 +256,11 @@
     margin-bottom: 1rem;
 }
 
+mat-progress-bar {
+    height: 65%;
+    width: 100%;
+}
+
 
 /* .cover {
     height: 100%;

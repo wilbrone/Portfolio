@@ -211,7 +211,6 @@
 }
 
 .tech {
-    border: solid;
     height: 100%;
 }
 
@@ -282,9 +281,14 @@ mat-progress-bar {
 
 @media screen and (max-width: 768px) {
     .tech_head {
-        border: solid;
         margin: 0;
         width: 100%;
+    }
+    #title_card {
+        visibility: hidden;
+    }
+    .rank {
+        visibility: hidden;
     }
     .tech_head p {
         padding-left: 0.5rem;
@@ -294,24 +298,18 @@ mat-progress-bar {
     }
     #table_dt {
         padding-left: 0.5rem;
+        padding-right: 0.4rem;
+        margin-top: 1rem;
     }
     #table_dt mat-card {
-        border: solid;
         width: 100%;
+        padding: 0;
+        padding-top: 1rem;
+    }
+    mat-progress-bar {
+        margin-top: 0.4rem;
     }
 }
-
-
-/* .cover {
-    height: 100%;
-    width: 100%;
-    float: right;
-    background-image: url('https://4sptech.com/wp-content/uploads/2019/11/Web-Application-Development0.jpg');
-    background-image: url('https://www.theasianweb.com/wp-content/uploads/2018/05/web-development-services-1.png');
-    background-size: 70%;
-    background-repeat: no-repeat;
-    background-position: center;
-} */
 
 
 /* ******************************** old new border********************************************************** */

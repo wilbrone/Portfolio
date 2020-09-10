@@ -149,9 +149,27 @@
     <div id='table_dt'>
       <mat-card id="title_card">
         <div class="row" id="techno_head">
-          <div class='col-md-2 col-sm-2' style="font-size:0.5rem;text-align:left;">RANK</div>
-          <div class="col-md-3 col-sm-3" style="font-size:0.5rem;">TECHNOLOGY</div>
-          <div class="col-md-7 col-sm-7" style="font-size:0.5rem;">INDEX SCORE</div>
+          <div class='col-md-2 col-sm-2' style="font-size:0.6rem;text-align:left;">RANK</div>
+          <div class="col-md-3 col-sm-3" style="font-size:0.6rem;">TECHNOLOGY</div>
+          <div class="col-md-7 col-sm-7" style="font-size:0.6rem;">INDEX SCORE</div>
+        </div>
+      </mat-card>
+      <mat-card>
+        <div class="row" style="text-align:center;">
+          <div class='col-md-2' class="rank" style="font-size:0.9rem;">5</div>
+          <div class="col-md-3 col-3" style="font-size:0.9rem;text-align:left;">HTML</div>
+          <div class="col-md-7 col-8" style="font-size:0.9rem;text-align:left;">
+            <mat-progress-bar mode="determinate" value="90"></mat-progress-bar>
+          </div>
+        </div>
+      </mat-card>
+      <mat-card>
+        <div class="row" style="text-align:center;">
+          <div class='col-md-2' class="rank" style="font-size:0.9rem;">6</div>
+          <div class="col-md-3 col-3" style="font-size:0.9rem;text-align:left;">CSS</div>
+          <div class="col-md-7 col-8" style="font-size:0.9rem;text-align:left;">
+            <mat-progress-bar mode="determinate" value="90"></mat-progress-bar>
+          </div>
         </div>
       </mat-card>
       <mat-card>
@@ -177,7 +195,7 @@
           <div class='col-md-2' class="rank" style="font-size:0.9rem;">3</div>
           <div class="col-md-3 col-3" style="font-size:0.9rem;text-align:left;">Python</div>
           <div class="col-md-7 col-8" style="font-size:0.9rem;text-align:left;">
-            <mat-progress-bar mode="determinate" value="65"></mat-progress-bar>
+            <mat-progress-bar mode="determinate" value="70"></mat-progress-bar>
           </div>
         </div>
       </mat-card>
@@ -190,91 +208,80 @@
           </div>
         </div>
       </mat-card>
-      <mat-card>
-        <div class="row" style="text-align:center;">
-          <div class='col-md-2' class="rank" style="font-size:0.9rem;">5</div>
-          <div class="col-md-3 col-3" style="font-size:0.9rem;text-align:left;">HTML</div>
-          <div class="col-md-7 col-8" style="font-size:0.9rem;text-align:left;">
-            <mat-progress-bar mode="determinate" value="90"></mat-progress-bar>
-          </div>
-        </div>
-      </mat-card>
-      <mat-card>
-        <div class="row" style="text-align:center;">
-          <div class='col-md-2' class="rank" style="font-size:0.9rem;">6</div>
-          <div class="col-md-3 col-3" style="font-size:0.9rem;text-align:left;">CSS</div>
-          <div class="col-md-7 col-8" style="font-size:0.9rem;text-align:left;">
-            <mat-progress-bar mode="determinate" value="90"></mat-progress-bar>
-          </div>
-        </div>
-      </mat-card>
     </div>
   </div>
 
 </section>
-
-<!-- <section class="technology" id="technology">
-    <div style="height:0.5%;">
-    </div>
-    <div class="tech" style="width:70%;margin:0 auto;margin-top:4rem;">
-        <p>JavaScript</p>
-        <div class="example-section">
-            <mat-progress-bar
-                class="example-margin"
-                style="height:20%;"
-                [matTooltip]="matTooltip"
-                [color]="color"
-                [value]="value"
-                [bufferValue]="bufferValue">
-            </mat-progress-bar>
+<section class="contact" id="contacts">
+  <mat-card>
+    <div class="row" id="find-me">
+      <!-- FOR SOCIAL MEDIA CONTACTS -->
+      <div class="col-md-5 col-sm-12" style="margin-top:4rem;margin-bottom:3rem;">
+        <div id="cntcts">
+          <i class="material-icons">email</i>&nbsp;&nbsp;&nbsp;
+          <span>wilbroneokoth@gmail.com</span><br><br>
+          <i class="material-icons">phone</i>&nbsp;&nbsp;&nbsp;
+          <span>+254 727516308</span><br><br>
+          <img src="https://img.icons8.com/material/32/000000/twitter-squared.png">
+          &nbsp; <a href="https://twitter.com/wilbrone_baron" target=_blank>@wilbrone_baron</a>
+          <br><br>
+          <img src="https://img.icons8.com/material/32/000000/linkedin--v1.png"/>
+          &nbsp; <a href="https://www.linkedin.com/in/wilbrone-baron-4336b5155/" target=_blank>Wilbrone Baron</a>
+          <br><br>
+          <img src="https://img.icons8.com/material/32/000000/github.png"/>
+          &nbsp; <a href="https://github.com/wilbrone" target=_blank>wilbrone</a>
         </div>
-    </div>
+      </div>
+      <!-- FOR THE CONTACT FORM -->
+      <div class="col-md-5 col-sm-12" style="margin-top:4rem;margin-bottom:3rem;">
+        <mat-toolbar color="primary" style="width:100%; background-color: orange;">
+          <p style="text-align:center;margin:0 auto;">
+              Let's Chat
+          </p>
+        </mat-toolbar>
+        <form class="example" method="post" action="">
+          <mat-form-field class="example-width">
+              <mat-label>Name</mat-label>
+              <input type="text" matInput placeholder="Your name">
+          </mat-form-field>
 
-    <div class="tech" style="width:70%;margin:0 auto;margin-top:4rem;">
-        <p style="color:orange;">Python</p>
-        <div class="example-section">
-            <mat-progress-bar
-                class="example-margin"
-                style="height:20%;"
-                [matTooltip]="matTooltip1"
-                [color]="color"
-                [value]="value1"
-                [bufferValue]="bufferValue">
-            </mat-progress-bar>
-        </div>
-    </div>
+          <mat-form-field class="example-width" id="two">
+            <mat-label>Email</mat-label>
+            <input type="text" matInput placeholder="Your email address ">
+          </mat-form-field>
 
-    <div class="tech" style="width:70%;margin:0 auto;margin-top:4rem;">
-        <p style="color:red;">Angular</p>
-        <div class="example-section">
-            <mat-progress-bar
-                class="example-margin"
-                style="height:20%;"
-                [matTooltip]="matTooltip2"
-                [color]="color"
-                [value]="value2"
-                [bufferValue]="bufferValue">
-            </mat-progress-bar>
-        </div>
-    </div>
+          <mat-form-field class="example-full-width">
+              <mat-label>Leave a comment</mat-label>
+              <textarea matInput placeholder="Your coment here..."></textarea>
+          </mat-form-field>
 
-    <div class="tech" style="width:70%;margin:0 auto;margin-top:4rem;">
-        <p style="color:green;">Django</p>
-        <div class="example-section">
-            <mat-progress-bar
-                class="example-margin"
-                style="height:20%;"
-                [matTooltip]="matTooltip3"
-                [color]="color"
-                [value]="value3"
-                [bufferValue]="bufferValue">
-            </mat-progress-bar>
-        </div>
+          <button mat-raised-button color="" type="submit" style="background-color: orange;">SEND</button>
+        </form>
+        <!-- <form class="example-form" method="post" action="">
+          <div class="row" style="width:100%;">
+            <mat-form-field class="example-width"  style="width:45%; margin-left:3%;">
+                <mat-label>Name</mat-label>
+                <input type="text" matInput placeholder="Your name">
+            </mat-form-field>
+
+            <mat-form-field class="example-width" style="width:43%; margin-left:5%;">
+              <mat-label>Email</mat-label>
+              <input type="text" matInput placeholder="Your email address ">
+            </mat-form-field>
+          </div>
+
+          <mat-form-field class="example-full-width">
+              <mat-label>Leave a comment</mat-label>
+              <textarea matInput placeholder="Your coment here..."></textarea>
+          </mat-form-field>
+
+        </form> -->
+      </div>
     </div>
-    <div style="height:1%;">
-    </div>
+  </mat-card>
 </section>
-<section class="footer" id="contact">
+
+<!-- <section class="footer" id="contact">
     <div class="">
     </div>
     <mat-card class="row cards">
@@ -328,8 +335,8 @@
             Copyrihgt &copy; 2020 Wilbrone. All Rights Reserved.
         </p>
     </mat-card>
-</section>
-<a href="#home">
+</section> -->
+<!-- <a href="#home">
     <button mat-fab class="button">
         <span class="material-icons" style="color:black;margin:0 auto;">
             arrow_upward

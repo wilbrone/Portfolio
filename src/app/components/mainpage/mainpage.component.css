@@ -311,6 +311,46 @@ mat-progress-bar {
     }
 }
 
+.contact mat-card {
+    justify-content: space-evenly;
+}
+
+#find-me {
+    justify-content: space-evenly;
+}
+
+#cntcts {
+    margin: 0 auto;
+    width: fit-content
+}
+
+#cntcts a {
+    color: skyblue;
+    font-size: 1.1rem;
+}
+
+#cntcts span {
+    color: skyblue;
+    font-size: 1.1rem;
+}
+
+.example {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+
+/* #input {
+} */
+
+.example-width {
+    width: 45%;
+}
+
+#two {
+    float: right;
+}
+
 
 /* ******************************** old new border********************************************************** */
 
@@ -348,73 +388,6 @@ mat-progress-bar {
 .navbar a:hover {
     background: #ddd;
     color: black;
-}
-
-.sect3 {
-    height: 100%;
-    /* background-color: transparent; */
-}
-
-
-/* .works {
-    font-family: 'Anton', sans-serif;
-    letter-spacing: 0.7em;
-    color: black;
-    font-stretch: wider;
-    font-size: 4em;
-    transform: rotate(-90deg);
-    width: 46%;
-    position: absolute;
-    left: -19.5%;
-    top: 267%;
-    text-align: center;
-    background-color: skyblue;
-} */
-
-.projs {
-    position: relative;
-    width: 95%;
-    margin: 0 auto;
-    padding-top: 4rem;
-    justify-content: space-evenly;
-    height: 90%;
-}
-
-.example-card {
-    max-width: 30%;
-}
-
-.example-header-image {
-    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
-    background-size: cover;
-}
-
-.technology {
-    height: 100%;
-    background-color: black;
-}
-
-.example-section {
-    display: flex;
-    align-content: center;
-    align-items: center;
-    height: 3rem;
-    width: 100%;
-    margin-left: 0.5rem;
-}
-
-.tech>p {
-    font-family: 'Anton', sans-serif;
-    color: beige;
-    font-size: 2em;
-    margin: 0;
-    width: 40%;
-    margin-left: 1rem;
-}
-
-.example-margin {
-    margin: 0 10px;
-    width: 50%;
 }
 
 .footer {

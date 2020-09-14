@@ -340,8 +340,9 @@ mat-progress-bar {
 }
 
 
-/* #input {
-} */
+.example-full-width{
+    width: 100%;
+}
 
 .example-width {
     width: 45%;
@@ -351,7 +352,27 @@ mat-progress-bar {
     float: right;
 }
 
+.footer{
+    background-color: lightblue;
+    height: 10%;
+    text-align: center;
+    padding-top: 2rem;
+    margin-top: 1.5rem;
+}
 
+@media screen and (max-width: 768px) {
+    .contact{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .footer{
+        height: 8%;
+        font-size: 0.7rem;
+        padding-top: 1.2rem;
+        margin-top: 0.5rem;
+
+    }
+}
 /* ******************************** old new border********************************************************** */
 
 
@@ -390,44 +411,8 @@ mat-progress-bar {
     color: black;
 }
 
-.footer {
-    height: 80%;
-    margin-top: 3rem;
-}
 
-.cards {
-    width: 90%;
-    margin: 0 auto;
-    justify-content: space-evenly;
-    display: flex;
-}
 
-.example-form {
-    min-width: 150px;
-    max-width: 500px;
-    width: 100%;
-    margin-top: 2rem;
-}
-
-.example-full-width {
-    width: 100%;
-}
-
-.fnote {
-    position: absolute;
-    width: 100%;
-    bottom: -417%;
-    height: 12%;
-    text-align: center;
-    background-color: skyblue;
-}
-
-.fnote>p {
-    font-size: 0.8em;
-    margin-top: 1rem;
-    color: black;
-    letter-spacing: 0.3em;
-}
 
 .button {
     background-color: whitesmoke;

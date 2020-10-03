@@ -238,20 +238,20 @@
               Let's Chat
           </p>
         </mat-toolbar>
-        <form class="example" method="post" action="">
+        <form class="example" [formGroup]="form" (ngSubmit)="onSubmit()">
           <mat-form-field class="example-width">
               <mat-label>Name</mat-label>
-              <input type="text" matInput placeholder="Your name">
+              <input type="text" matInput placeholder="Your name" formControlName="fullname">
           </mat-form-field>
 
           <mat-form-field class="example-width" id="two">
             <mat-label>Email</mat-label>
-            <input type="text" matInput placeholder="Your email address ">
+            <input type="text" matInput placeholder="Your email address" formControlName="email">
           </mat-form-field>
 
           <mat-form-field class="example-full-width">
               <mat-label>Leave a comment</mat-label>
-              <textarea matInput placeholder="Your coment here..."></textarea>
+              <textarea matInput placeholder="Your coment here..." formControlName="comment"></textarea>
           </mat-form-field>
 
           <button mat-raised-button color="" type="submit" style="background-color: orange;">SEND</button>

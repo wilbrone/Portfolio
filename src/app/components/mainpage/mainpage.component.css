@@ -5,6 +5,7 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    margin-top: 3rem;
 }
 
 .name {
@@ -339,8 +340,7 @@ mat-progress-bar {
     margin-top: 1rem;
 }
 
-
-.example-full-width{
+.example-full-width {
     width: 100%;
 }
 
@@ -352,7 +352,7 @@ mat-progress-bar {
     float: right;
 }
 
-.footer{
+.footer {
     background-color: lightblue;
     height: 10%;
     text-align: center;
@@ -361,18 +361,19 @@ mat-progress-bar {
 }
 
 @media screen and (max-width: 768px) {
-    .contact{
+    .contact {
         width: 100%;
         margin-top: 1rem;
     }
-    .footer{
+    .footer {
         height: 8%;
         font-size: 0.7rem;
         padding-top: 1.2rem;
         margin-top: 0.5rem;
-
     }
 }
+
+
 /* ******************************** old new border********************************************************** */
 
 
@@ -410,9 +411,6 @@ mat-progress-bar {
     background: #ddd;
     color: black;
 }
-
-
-
 
 .button {
     background-color: whitesmoke;

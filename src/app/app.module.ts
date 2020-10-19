@@ -25,12 +25,14 @@ import { AngularFireStorageModule } from '@angular/fire/storage';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 
 import { environment } from '../environments/environment';
+import { DesignsComponent } from './components/designs/designs.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    MainpageComponent
+    MainpageComponent,
+    DesignsComponent
   ],
   imports: [
     BrowserModule,

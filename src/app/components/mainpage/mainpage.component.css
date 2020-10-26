@@ -64,9 +64,10 @@
 
 #quots {
     color: whitesmoke;
-    padding-top: 3rem;
+    padding-top: 6rem;
     font-size: 3.2rem;
     font-family: 'Playfair Display', serif;
+    /* margin-top: 3rem; */
 }
 
 #quots em {
@@ -158,6 +159,7 @@
 .work {
     height: 100%;
     display: flex;
+    padding-top: 4rem;
 }
 
 #prjt-label {
@@ -213,6 +215,8 @@
 
 .tech {
     height: 100%;
+    margin-top: 3rem;
+    padding-top: 4rem;
 }
 
 .tech_head {
@@ -312,6 +316,10 @@ mat-progress-bar {
     }
 }
 
+.contact {
+    margin-top: 3rem;
+}
+
 .contact mat-card {
     justify-content: space-evenly;
 }
@@ -370,63 +378,5 @@ mat-progress-bar {
         font-size: 0.7rem;
         padding-top: 1.2rem;
         margin-top: 0.5rem;
-    }
-}
-
-
-/* ******************************** old new border********************************************************** */
-
-
-/* .navbar{
-    background-color: #e3f2fd;
-    height:10%;
-} */
-
-.navbar {
-    overflow: hidden;
-    background-color: #333;
-    display: block;
-    top: 0;
-    /* Position the navbar at the top of the page */
-    width: 100%;
-    /* Full width */
-}
-
-
-/* Links inside the navbar */
-
-.navbar a {
-    float: left;
-    display: flex;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-
-/* Change background on mouse-over */
-
-.navbar a:hover {
-    background: #ddd;
-    color: black;
-}
-
-.button {
-    background-color: whitesmoke;
-    position: absolute;
-    bottom: -395%;
-    right: 1%;
-}
-
-@media screen and (max-width: 768px) {
-    .navbar {
-        overflow: hidden;
-        background-color: #333;
-        display: block;
-        top: 0;
-        /* Position the navbar at the top of the page */
-        width: 100%;
-        /* Full width */
     }
 }

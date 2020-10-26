@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 import { FormBuilder, FormGroup, FormControl } from '@angular/forms';
-// import { AngularFire } from 'angularfire2';
+import {MatSnackBar} from '@angular/material/snack-bar';
 
 import { AngularFirestore } from '@angular/fire/firestore';
 
@@ -19,15 +19,21 @@ export class MainpageComponent implements OnInit {
     comment:  new FormControl(''),
   });
 
-  constructor(private fb: FormBuilder, private db: AngularFirestore, private createMessage: CreateService,) {
+  durationInSec = 2;
+
+  constructor(private fb: FormBuilder, private db: AngularFirestore, private createMessage: CreateService, private snackBar: MatSnackBar) {
   }
 
   onSubmit() {
     // TODO: Use EventEmitter with form value
-    console.log(this.form.value);
-    console.log(this.form.get('fullname').value);
 
     this.createMessage.saveMessage(this.form.value);
+    const names = this.form.get('fullname').value;
+
+    this.form.reset();
+    this.snackBar.open('Thank you ' + names + ', for reaching out. I will get back to you soon.', {
+      duration: 2000,
+    });
   }
 
   // COME BACK AND RESTRUCTURE THIS SECTION

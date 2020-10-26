@@ -11,6 +11,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 import { MatCarouselModule } from '@ngmodule/material-carousel';
 
@@ -49,6 +50,7 @@ import { DesignsComponent } from './components/designs/designs.component';
     MatTooltipModule,
     FormsModule,
     ReactiveFormsModule,
+    MatSnackBarModule,
 
     MatCarouselModule.forRoot(),
 

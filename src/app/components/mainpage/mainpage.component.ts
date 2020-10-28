@@ -31,9 +31,7 @@ export class MainpageComponent implements OnInit {
     const names = this.form.get('fullname').value;
 
     this.form.reset();
-    this.snackBar.open('Thank you ' + names + ', for reaching out. I will get back to you soon.', {
-      duration: 2000,
-    });
+    this.snackBar.open('Thank you ' + names + ', for reaching out. I will get back to you soon.');
   }
 
   // COME BACK AND RESTRUCTURE THIS SECTION

@@ -10,7 +10,7 @@ import { CreateService } from '../../services/messages/create.service';
 @Component({
   selector: 'app-mainpage',
   templateUrl: './mainpage.component.html',
-  styleUrls: ['./mainpage.component.css']
+  styleUrls: ['./mainpage.component.scss']
 })
 export class MainpageComponent implements OnInit {
   form = new FormGroup({

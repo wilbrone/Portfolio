@@ -165,7 +165,7 @@
 #prjt-label {
     font-family: 'Anton', sans-serif;
     letter-spacing: 0.7em;
-    color: black;
+    // color: black;
     background-color: skyblue;
     width: fit-content;
     font-size: 4em;
@@ -173,16 +173,21 @@
     font-stretch: wider;
     transform: rotate(-90deg);
     height: fit-content;
-    margin: auto -16rem;
+    margin: 17rem -16rem;
     padding-left: 1.5rem;
+
+    // color: rgba(0, 0, 0, 0.5);
+    // -webkit-text-fill-color: transparent;
+    // -webkit-background-clip: text;
 }
 
 .probg {
-    height: 90%;
+    height: 81%;
     width: 85%;
     margin: 0 auto;
-    margin-top: 2rem;
+    margin-top: 0.8rem;
     background-color: skyblue;
+    border-radius: 5px;
 }
 
 .projs {

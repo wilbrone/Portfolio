@@ -194,6 +194,15 @@
     justify-content: space-between;
 }
 
+.prjt-wrapper{
+    margin-top: 2rem;
+
+    .projects{
+       height: 100%; 
+    }
+}
+
+
 @media screen and (max-width: 768px) {
     #prjt-label {
         font-size: 3em;
@@ -220,8 +229,6 @@
 
 .tech {
     height: 100%;
-    margin-top: 3rem;
-    padding-top: 4rem;
 }
 
 .tech_head {
@@ -229,6 +236,7 @@
     width: 86%;
     margin-left: 9.5rem;
     color: white;
+    border-radius: 7px;
 }
 
 .tech_head p {
@@ -322,7 +330,7 @@ mat-progress-bar {
 }
 
 .contact {
-    margin-top: 3rem;
+    margin-top: 0.5rem;
 }
 
 .contact mat-card {
